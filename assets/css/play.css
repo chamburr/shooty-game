@@ -1,0 +1,13 @@
+#frame {
+    width: 100%;
+    text-align: center;
+}
+
+#frame iframe {
+    height: 521px;
+    width: 500px;
+    -moz-transform-origin: top center;
+    -o-transform-origin: top center;
+    -webkit-transform-origin: top center;
+    background-color: white;
+}

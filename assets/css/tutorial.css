@@ -1,0 +1,9 @@
+.tutorial-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tutorial-image {
+    width: 35%;
+}
