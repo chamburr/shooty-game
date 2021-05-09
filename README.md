@@ -1,5 +1,7 @@
 # Shooty Game
 
+A simple shooter game made with p5.js!
+
 This website was created for my Y3 CEP project in school.
 
 # Play
