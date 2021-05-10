@@ -54,7 +54,8 @@ self.addEventListener('install', function (event) {
                 'assets/vendor/aos.min.js',
                 'assets/vendor/bootstrap.min.css',
                 'assets/vendor/bootstrap.min.js',
-                'assets/vendor/jquery.min.js'
+                'assets/vendor/jquery.min.js',
+                'https://shootygame.netlify.app'
             ]).then(function () {
                 self.skipWaiting()
             })
