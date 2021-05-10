@@ -9,12 +9,14 @@ function resizeFrame(fullScreen) {
 
     var scale = (width / 500).toFixed(2).toString()
 
-    $('#frame').css('height', width + 21 * scale)
+    $('#frame').css({
+        'height': width + 21 * scale,
+        'text-align': fullScreen ? 'center' : 'left'
+    })
+
     $('#frame iframe').css({
-        '-ms-zoom': scale,
-        '-moz-transform': 'scale(' + scale + ')',
-        '-o-transform': 'scale(' + scale + ')',
-        '-webkit-transform': 'scale(' + scale + ')'
+        'transform': 'scale(' + scale + ')',
+        'transform-origin': fullScreen ? 'top center' : '0 0'
     })
 }
 
