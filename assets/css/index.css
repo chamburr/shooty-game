@@ -35,6 +35,13 @@
     max-height: 55%;
 }
 
+#hero-icon:hover, #hero-icon-sm:hover {
+    animation-name: spin;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 #hero-content {
     position: relative;
     top: 75px;
@@ -94,5 +101,14 @@
 @media (min-width: 576px) {
     #hero-2-wave {
         height: 20vh;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
